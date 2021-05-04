@@ -6,6 +6,7 @@ import Amplify, { Auth } from 'aws-amplify';
 import aws_exports from './aws-exports';
 Amplify.configure(aws_exports);
 
+console.log("This is the env var:");y
 console.log(process.env.REACT_APP_NAME);
 
 class App extends Component {
